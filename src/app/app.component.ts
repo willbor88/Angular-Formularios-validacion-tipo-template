@@ -54,7 +54,7 @@ export class AppComponent {
     this.Usuario.respuesta = this.objetoForm.form.value.respuesta
     this.Usuario.genero = this.objetoForm.form.value.generos
     
-
+  this.objetoForm.reset()
     console.log(form)//Objeto con todo el estado del formulario
   //console.log(this.objetoForm)
 
